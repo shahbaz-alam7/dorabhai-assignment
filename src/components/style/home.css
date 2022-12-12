@@ -1,0 +1,44 @@
+/* ================home============== */
+.home {
+  background-color: #f3f6f9;
+  width: 83vw;
+  height: 1000px;
+  padding: 20px;
+}
+/* ================home============== */
+
+.heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: capitalize;
+  padding: 10px 0;
+  color: #3e4851;
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.see-all {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  padding-right: 10px;
+  color: #ea1c1c;
+}
+.semester {
+  margin-top: 30px;
+}
+.courses {
+  display: flex;
+  overflow-x: scroll;
+}
+
+@media screen and (max-width: 550px) {
+  .home {
+    width: 100vw;
+    height: 800px;
+  }
+}

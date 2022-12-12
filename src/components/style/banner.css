@@ -1,0 +1,71 @@
+.banner {
+  background-image: linear-gradient(
+    to right,
+    #011171,
+    #1a1b84,
+    #2c2698,
+    #3d31ac,
+    #4d3cc0
+  );
+  width: 80vw;
+  height: 170px;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner img {
+  height: 170px;
+}
+.banner .detail {
+  padding-left: 20px;
+}
+.banner .detail h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.banner .detail p {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.banner .contact {
+  background-color: #ffd600;
+  color: #000;
+  display: flex;
+  width: 600px;
+  height: 45px;
+  padding: 0 20px;
+  border-radius: 0 30px 30px 0;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -20px;
+  margin-top: 20px;
+}
+.contact p {
+  display: flex;
+  align-items: center;
+}
+.contact .icon {
+  background: black;
+  color: #ffd600;
+  padding: 1px;
+  border-radius: 50%;
+}
+@media screen and (max-width: 550px) {
+  .banner {
+    width: 90vw;
+  }
+  .banner img {
+    display: none;
+  }
+  .banner .contact {
+    width: 90vw;
+    border-radius: 0;
+  }
+  .banner .contact p:last-child {
+    display: none;
+  }
+}

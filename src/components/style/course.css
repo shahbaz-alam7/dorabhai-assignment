@@ -1,0 +1,73 @@
+.course {
+  width: 370px;
+  height: 175px;
+  background: #ffffff;
+  margin: 15px 15px 15px 0;
+  padding: 10px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.course .top {
+  display: flex;
+  width: 340px;
+}
+.description-box {
+  padding: 0 10px;
+}
+.description-box h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 10px;
+  line-height: 21px;
+  color: #383b3e;
+}
+.description-box p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: #9a9a9a;
+}
+.description-box span:first-child {
+  color: #635c5c;
+}
+.description-box span:last-child {
+  color: #ff0000;
+}
+
+.line {
+  width: 100%;
+  margin: 10px auto;
+  height: 1px;
+  background-color: #efefef;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom figure {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.bottom-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btm_image {
+  width: 176.11px;
+  height: 99.01px;
+  border-radius: 13px;
+}
+.bottom p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+}

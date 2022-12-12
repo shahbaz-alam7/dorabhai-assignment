@@ -1,0 +1,102 @@
+/*=============== header============= */
+.header {
+  height: 75px;
+  background: #000000;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+}
+/*=============== header============= */
+/*=============== Navbar============= */
+.navbar {
+  width: 17vw;
+  height: 1000px;
+  background: #f3f6f9;
+}
+.nav-top {
+  box-sizing: border-box;
+  width: 100%;
+  height: 160px;
+  padding: 0 20px;
+  background: #ff7171;
+  display: flex;
+  align-items: flex-end;
+}
+.nav-top .greet {
+  font-weight: 600;
+  font-size: 16px;
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+.nav-top .img {
+  height: 120px;
+}
+.nav-ul {
+  padding-left: 20px;
+}
+.nav-ul li {
+  list-style: none;
+  display: flex;
+  margin: 20px auto;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #626878;
+}
+.nav-links .icon {
+  margin-right: 20px;
+}
+
+.nav-ul .active {
+  color: #ea1c1c;
+}
+.nav-links {
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.social-media {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.social-media .social-media-icons {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.social-media .social-media-icons img {
+  width: 27px;
+  height: 27px;
+  margin-right: 10px;
+}
+.playstore {
+  margin-left: -11px;
+  width: 150px;
+  height: 80px;
+}
+
+/*=============== Navbar============= */
+@media screen and (max-width: 550px) {
+  .header {
+    width: 100vw;
+  }
+  .navbar {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    height: 60px;
+  }
+  .nav-top,
+  .nav-ul span,
+  .social-media {
+    display: none;
+  }
+  .nav-ul {
+    display: flex;
+  }
+}
