@@ -4,6 +4,7 @@
   background: #000000;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
   display: flex;
+  padding-left: 20px;
   align-items: center;
 }
 /*=============== header============= */
